@@ -1,0 +1,4 @@
+# CodeReducer
+Android 减包专用，可以很方便的进行Java代码的分析，优化与重构
+使用了Eclipse JDT将Java代码变成AST语法树结构，能够做到去除初始化赋值代码，去除private变量和方法的方案，可以支持其它拓展来从java带马上优化
+对应的工程，减少最终apk的包大小和方法数
